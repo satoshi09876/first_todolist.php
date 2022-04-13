@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+/* 共通部分
+-------------------------------- */
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    color: #000;
+}
+a {
+    text-decoration: none;
+}
+
+/* header
+------------------------------ */
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 34px;
+    list-style: none;
+    text-transform: uppercase;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: white;
+}
+.main-nav a:hover {
+    color: yellow;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-top: 14px;
+    color: white;
+}
+
+/*  signup
+----------------------- */
+.page-title {
+    padding: 30px;
+}
+form dl {
+    margin-bottom: 14px;
+}
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    max-width: 340px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.button {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    background-color: green;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 15px 25px;
+    margin: 25px;
+}
+input[type="submit"]:hover {
+    color: yellow;
+}
+input[type="button"]:hover {
+    color: brown;
+}
+.rewrite {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    background-color: rgb(216, 216, 216);
+    color: green;
+    border-radius: 0.5rem;
+    padding: 15px 25px;
+    margin: 25px;
+}
+.error {
+    color: red;
+}
+
+/* footer
+-------------------------- */
+footer {
+    background-color: green;
+    text-align: center;
+    margin-top: 35px;
+    padding: 15px 0;
+}
+footer p {
+    color: #fff;
+    font-size: 0.875rem;
+}
+
+/* todo content
+--------------------------- */
+.username {
+    margin-bottom: 30px;
+}
+article {
+    width: 40%;
+    border: solid 1px #000000;
+    border-radius: 0.5rem;
+}
+.todocontents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+input {
+    width: 100%;
+    max-width: 340px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    max-width: 340px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* todo-list
+--------------------------------- */
+aside {
+    display: flex;
+    justify-content: center;
+    width: 55%;
+    border: solid 1px #000000;
+    border-radius: 0.5rem;
+}
+aside li {
+    list-style: circle;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: green;
+    font-size: 115%;
+}
+aside li button {
+    margin-right: 1rem;
+    justify-content: left;
+}
+aside li button:hover {
+    color: yellow;
+}
+.delete:hover {
+    color: red;
+}
+.done {
+    margin-left: 5rem;
+}
